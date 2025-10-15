@@ -600,7 +600,7 @@ footer {
     gap: 23px;
 }
 .logo-in-footer {
-    height: 115px;
+    height: 96px;
     display: flex;
     align-items: flex-end;
 }
@@ -609,6 +609,7 @@ footer {
     height: 32px;
 }
 .text-in-footer {
+    height: 397px;
     display: flex;
     flex-direction: row;
 }
@@ -616,10 +617,11 @@ footer {
     width: 168px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 .title-row-footer {
-    width: 130px;
+    width: 127.62187194824219px;
+    height: 88px;
     font-size: 22px;
     line-height: 32px;
     letter-spacing: 0px;
@@ -629,7 +631,7 @@ footer {
 .text-row-in-footer {
     display: flex;
     flex-direction: column;
-    gap: 6.5px;
+    gap: 9px;
 }
 .text-row {
     font-size: 11px;
@@ -654,15 +656,21 @@ footer {
 .under-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+     height: 64px;
+     gap: 136px;
 }
-.text-under-footer {
+.in-under-footer {
+    display: flex;
+    gap: 80.8px;
+}
+.text-under-ih-footer {
     width: 189px;
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 .title-under-footer{
+    height: 24px;
     font-size: 21px;
     line-height: 32px;
     letter-spacing: 0px;
@@ -670,6 +678,7 @@ footer {
     color: #03363D;
 }
 .text-under-footer{
+    height: 20px;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0px;
@@ -701,13 +710,9 @@ footer {
     font-weight: 700;
     padding: 10px 25.16px 10px 26px;
 }
-.image-in-footer {
+.in-image-in-footer {
     display: flex;
     gap: 16px;
-    height: 32px;
-}
-.in-image-in-footer {
-    width: 32px;
     height: 32px;
 }
 .last-footer{
@@ -717,7 +722,7 @@ footer {
     gap: 12px;
 }
 .text-in-last-footer {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 28px;
     letter-spacing: 0px;
     font-weight: 400;
